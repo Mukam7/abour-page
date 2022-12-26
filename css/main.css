@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sen&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+    padding: 0 15px;    
+}
+
+/* about-txt */
+.about-txt{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 80px;
+}
+
+.about-left-t h4{
+font-family: 'Inter' , sans-serif;
+font-style: normal;
+padding: 0px 0px 16px 50px;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #232536;
+}
+.about-left-t p{
+ position: absolute;
+height: 230px;
+background-color: white;
+font-family: 'Sen' , sans-serif;
+font-style: normal;
+padding: 0px 50px 50px;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+letter-spacing: -2px;
+color: #232536;
+z-index: 10;
+}
+.about-right-t p{
+font-family: 'Inter' , sans-serif;
+font-style: normal;
+padding: 40px 0px 0px 330px;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #4C4C4C;
+}
+/* people-img */
+.img-box{
+    position: relative;
+    text-align: center;
+}
+
+.img-box-center{
+    position: absolute;
+    left: 135px;
+    bottom: 5px;
+    width: 600px;
+    height: 150px;
+    background: #FFD050;
+}
+
+.img-box-txt , .img-box-txt2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-box-center h2{
+font-family: 'Sen' , sans-serif;
+font-style: normal;
+padding-top: 15px;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+letter-spacing: -2px;
+color: #232536;
+}
+.img-box-center p{
+font-family: 'Inter' , sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #232536;
+}
+
+.img-box-blue{
+    position: absolute;
+    bottom: 0px;
+    width: 300px;
+    height: 20px;
+    background: #592EA9;
+}
+
+.img-box-yellow{
+    position: absolute;
+    bottom: 5px;
+    right: 330px;
+    width: 400px;
+    height: 20px;
+    background: #FFD050;
+}
+/* img-box-bottom*/
